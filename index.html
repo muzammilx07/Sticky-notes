@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Notes App</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="shop-items"></div>
-    <div id="shop-cart">
-        <button id="total-button" class="total-button">Total: 0</button>
+    <div id="text-area">
+        <div class="input-div">
+            <textarea id="note-input" rows="12" cols="50" name="note-input" placeholder="//Write your note here"></textarea>
+            <input type="color" name="" id="pickColor">
+        </div>
+        <button id="savebtn1">Add Note</button>
+    </div>
+    <div id="notes-area">
+        <div class="title"><h2>Your Notes</h2></div>
     </div>
     <script src="./script.js"></script>
 </body>
